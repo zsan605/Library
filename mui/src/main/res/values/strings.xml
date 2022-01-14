@@ -2,4 +2,9 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="bottom_sheet_list_title">标题</string>
+
+    <!-- 对话框字符串 -->
+    <string name="dialog_privacy_policy_content">感谢您的使用，我们非常注重您的隐私和个人信息保护。在您使用本软件之前，请务必认真阅读和理解<a href="www.baidu.com">《用户协议》</a>和<a href="www.google.com">《隐私政策》</a>中规定的所有权利和限制。请您同意并接受全部服务条款后再开始使用我们的服务。</string>
+    <string name="dialog_user_protocol_link_text">《用户协议》</string>
+    <string name="dialog_privacy_policy_link_text">《隐私政策》</string>
 </resources>

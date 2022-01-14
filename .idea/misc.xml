@@ -5,6 +5,7 @@
       <map>
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="mui/src/main/res/drawable/shape_sheet_dialog_bg.xml" value="0.17447916666666666" />
+        <entry key="mui/src/main/res/layout/dialog_privacy_policy.xml" value="0.2515625" />
         <entry key="mui/src/main/res/layout/fragment_bottom_sheet_list.xml" value="0.1" />
         <entry key="mui/src/main/res/layout/fragment_bottom_sheet_list_item.xml" value="0.15070921985815602" />
       </map>
