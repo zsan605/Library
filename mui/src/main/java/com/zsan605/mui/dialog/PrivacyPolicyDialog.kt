@@ -95,9 +95,9 @@ class PrivacyPolicyDialogBuilder(private val context: Context) {
             .setUnderlined(false)
             .setBold(true)
             .setOnClickListener {
-//                val uri: Uri = Uri.parse(urlStr)
-//                val intent = Intent(Intent.ACTION_VIEW, uri)
-//                context.startActivity(intent)
+                val uri: Uri = Uri.parse(urlStr)
+                val intent = Intent(Intent.ACTION_VIEW, uri)
+                context.startActivity(intent)
             }
 
         if (linkTextColor != null) {

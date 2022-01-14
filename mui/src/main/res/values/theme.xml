@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+<!--        <item name="colorPrimary">@color/primary</item>-->
+<!--        <item name="colorPrimaryDark">@color/primary</item>-->
+<!--        <item name="colorAccent">@color/primary</item>-->
+<!--        <item name="android:windowBackground">@color/white</item>-->
+<!--        <item name="android:navigationBarColor">@color/primary</item>-->
+<!--        <item name="android:textColor">@color/black</item>-->
+<!--        <item name="android:editTextColor">@color/black</item>-->
+<!--        <item name="android:textColorHint">@color/gray</item>-->
+<!--        <item name="tabTextColor">@color/primary</item>-->
+    </style>
+
+    <style name="AppTheme.WebViewActivity" parent="Theme.MaterialComponents.Light.NoActionBar">
+
+    </style>
+</resources>

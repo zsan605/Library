@@ -71,8 +71,8 @@ class MainActivity : AppCompatActivity() {
         }
         mBind.showPrivacyPolicyDialog.setOnClickListener {
             PrivacyPolicyDialogBuilder.builder(this)
-                .setUserProtocolUrl("www.baidu.com", Color.GREEN)
-                .setPrivacyPolicyUrl("www.baidu.com")
+                .setUserProtocolUrl("http://www.baidu.com")
+                .setPrivacyPolicyUrl("http://www.baidu.com")
                 .setPositiveButton { dialog, which ->
 //                    TODO("Not yet implemented")
                     Toast.makeText(applicationContext, "click agree", Toast.LENGTH_SHORT).show()
