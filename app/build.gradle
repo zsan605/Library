@@ -42,5 +42,8 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 
     implementation project(':mui') // 添加依赖模块
+    implementation project(':pay') // 添加依赖模块
+//    api (name: 'alipaysdk-15.8.06.211122170115', ext: 'aar')
+//    implementation 'alipaysdk-15.8.06.211122170115.aar'
 
 }

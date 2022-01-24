@@ -22,6 +22,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="展示隐私协议对话框"/>
+        <Button
+            android:id="@+id/show_pay_activity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="pay"/>
     </androidx.appcompat.widget.LinearLayoutCompat>
 
 
