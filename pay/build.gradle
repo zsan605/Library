@@ -55,7 +55,7 @@ afterEvaluate {
             release(MavenPublication) {
                 from components.release
                 groupId = 'com.github.zsan605'
-                artifactId = 'Library:pay'
+                artifactId = 'Library'
                 version = '1.0.0'
             }
         }
