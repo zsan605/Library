@@ -35,3 +35,16 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 
 }
+
+afterEvaluate {
+    publishing {
+        publications {
+            release(MavenPublication) {
+                from components.release
+                groupId = 'com.github.zsan605'
+                artifactId = 'Library'
+                version = '1.0.0'
+            }
+        }
+    }
+}
