@@ -1,7 +1,7 @@
 apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-parcelize'
-apply plugin:'maven-publish'
+apply plugin: 'maven-publish'
 
 android {
     compileSdkVersion 31
@@ -42,8 +42,10 @@ afterEvaluate {
             release(MavenPublication) {
                 from components.release
                 groupId = 'com.github.zsan605'
-                artifactId = 'Library-common'
-                version = '1.0.0'
+                artifactId = 'Library'
+                version = '1.0.0-common'
+//                packaging = 'aar'
+
             }
         }
     }
