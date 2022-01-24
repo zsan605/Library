@@ -42,7 +42,7 @@ afterEvaluate {
             release(MavenPublication) {
                 from components.release
                 groupId = 'com.github.zsan605'
-                artifactId = 'Library'
+                artifactId = 'Library-common'
                 version = '1.0.0'
             }
         }
